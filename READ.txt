@@ -1,0 +1,7 @@
+admin.
+/admin
+email : mayen@admin.com
+pass  : mayenuddin
+user.
+/
+ 
