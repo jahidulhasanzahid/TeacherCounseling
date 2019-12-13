@@ -100,31 +100,69 @@
                           <div class="form-row">
                             <div class="form-group col-md-6">
                               <label for="inputSlotOne">Slot One</label>
-                              <input type="text" class="form-control" id="inputSlotTwo" placeholder="ex: Class,Counseling,Off Day" name="slotOne" required>
+                              <!-- <input type="text" class="form-control" id="inputSlotTwo" placeholder="ex: Class,Counseling,Off Day" name="slotOne" required> -->
+
+                              <select id="inputState" class="form-control" name="slotOne" required>
+                                <option selected>Choose Status...</option>
+                                <option value="Class">Class</option>
+                                <option value="Counseling">Counseling</option>
+                                <option value="Off Day">Off Day</option>
+                              </select>
+
                             </div>
                             <div class="form-group col-md-6">
                               <label for="inputSlotTwo">Slot Two</label>
-                              <input type="text" class="form-control" id="inputSlotTwo" placeholder="ex: Class,Counseling,Off Day" name="slotTwo" required>
+                              <!-- <input type="text" class="form-control" id="inputSlotTwo" placeholder="ex: Class,Counseling,Off Day" name="slotTwo" required> -->
+                              <select id="inputState" class="form-control" name="slotTwo" required>
+                                <option selected>Choose Status...</option>
+                                <option value="Class">Class</option>
+                                <option value="Counseling">Counseling</option>
+                                <option value="Off Day">Off Day</option>
+                              </select>
                             </div>
                           </div>
                           <div class="form-row">
                             <div class="form-group col-md-6">
                               <label for="inputSlotThree">Slot Three</label>
-                              <input type="text" class="form-control" id="inputSlotThree" placeholder="ex: Class,Counseling,Off Day" name="slotThree" required>
+                              <!-- <input type="text" class="form-control" id="inputSlotThree" placeholder="ex: Class,Counseling,Off Day" name="slotThree" required> -->
+                              <select id="inputState" class="form-control" name="slotThree" required>
+                                <option selected>Choose Status...</option>
+                                <option value="Class">Class</option>
+                                <option value="Counseling">Counseling</option>
+                                <option value="Off Day">Off Day</option>
+                              </select>
                             </div>
                             <div class="form-group col-md-6">
                               <label for="inputSlotFour">Slot Four</label>
-                              <input type="text" class="form-control" id="inputSlotFour" placeholder="ex: Class,Counseling,Off Day" name="slotFour" required>
+                              <!-- <input type="text" class="form-control" id="inputSlotFour" placeholder="ex: Class,Counseling,Off Day" name="slotFour" required> -->
+                              <select id="inputState" class="form-control" name="slotFour" required>
+                                <option selected>Choose Status...</option>
+                                <option value="Class">Class</option>
+                                <option value="Counseling">Counseling</option>
+                                <option value="Off Day">Off Day</option>
+                              </select>
                             </div>
                           </div>
                           <div class="form-row">
                             <div class="form-group col-md-6">
                               <label for="inputSlotFive">Slot Five</label>
-                              <input type="text" class="form-control" id="inputSlotFive" placeholder="ex: Class,Counseling,Off Day" name="slotFive" required>
+                              <!-- <input type="text" class="form-control" id="inputSlotFive" placeholder="ex: Class,Counseling,Off Day" name="slotFive" required> -->
+                              <select id="inputState" class="form-control" name="slotFive" required>
+                                <option selected>Choose Status...</option>
+                                <option value="Class">Class</option>
+                                <option value="Counseling">Counseling</option>
+                                <option value="Off Day">Off Day</option>
+                              </select>
                             </div>
                             <div class="form-group col-md-6">
                               <label for="inputSlotSix">Slot Six</label>
-                              <input type="text" class="form-control" id="inputSlotSix" placeholder="ex: Class,Counseling,Off Day" name="slotSix" required>
+                              <!-- <input type="text" class="form-control" id="inputSlotSix" placeholder="ex: Class,Counseling,Off Day" name="slotSix" required> -->
+                              <select id="inputState" class="form-control" name="slotSix" required>
+                                <option selected>Choose Status...</option>
+                                <option value="Class">Class</option>
+                                <option value="Counseling">Counseling</option>
+                                <option value="Off Day">Off Day</option>
+                              </select>
                             </div>
                           </div>
                           <button type="submit" class="btn btn-primary" name="submit">Save Add</button>
@@ -149,31 +187,69 @@
                           <div class="form-row">
                             <div class="form-group col-md-6">
                               <label for="inputSlotOne">Slot One</label>
-                              <input type="text" class="form-control" id="inputSlotTwo" placeholder="Slot One" name="slotOne" value="{{ $infos->slotOne }}" required>
+                              <!-- <input type="text" class="form-control" id="inputSlotTwo" placeholder="ex: Class,Counseling,Off Day" name="slotOne" required> -->
+
+                              <select id="inputState" class="form-control" name="slotOne" required>
+                                <option selected>{{$infos->slotOne}}</option>
+                                <option value="Class">Class</option>
+                                <option value="Counseling">Counseling</option>
+                                <option value="Off Day">Off Day</option>
+                              </select>
+
                             </div>
                             <div class="form-group col-md-6">
                               <label for="inputSlotTwo">Slot Two</label>
-                              <input type="text" class="form-control" id="inputSlotTwo" placeholder="Slot Two" name="slotTwo" value="{{ $infos->slotTwo }}" required>
+                              <!-- <input type="text" class="form-control" id="inputSlotTwo" placeholder="ex: Class,Counseling,Off Day" name="slotTwo" required> -->
+                              <select id="inputState" class="form-control" name="slotTwo" required>
+                                <option selected>{{$infos->slotTwo}}</option>
+                                <option value="Class">Class</option>
+                                <option value="Counseling">Counseling</option>
+                                <option value="Off Day">Off Day</option>
+                              </select>
                             </div>
                           </div>
                           <div class="form-row">
                             <div class="form-group col-md-6">
                               <label for="inputSlotThree">Slot Three</label>
-                              <input type="text" class="form-control" id="inputSlotThree" placeholder="Slot Three" name="slotThree" value="{{ $infos->slotThree }}" required>
+                              <!-- <input type="text" class="form-control" id="inputSlotThree" placeholder="ex: Class,Counseling,Off Day" name="slotThree" required> -->
+                              <select id="inputState" class="form-control" name="slotThree" required>
+                                <option selected>{{$infos->slotThree}}</option>
+                                <option value="Class">Class</option>
+                                <option value="Counseling">Counseling</option>
+                                <option value="Off Day">Off Day</option>
+                              </select>
                             </div>
                             <div class="form-group col-md-6">
                               <label for="inputSlotFour">Slot Four</label>
-                              <input type="text" class="form-control" id="inputSlotFour" placeholder="Slot Four" name="slotFour" value="{{ $infos->slotFour }}" required>
+                              <!-- <input type="text" class="form-control" id="inputSlotFour" placeholder="ex: Class,Counseling,Off Day" name="slotFour" required> -->
+                              <select id="inputState" class="form-control" name="slotFour" required>
+                                <option selected>{{$infos->slotFour}}</option>
+                                <option value="Class">Class</option>
+                                <option value="Counseling">Counseling</option>
+                                <option value="Off Day">Off Day</option>
+                              </select>
                             </div>
                           </div>
                           <div class="form-row">
                             <div class="form-group col-md-6">
                               <label for="inputSlotFive">Slot Five</label>
-                              <input type="text" class="form-control" id="inputSlotFive" placeholder="Slot Five" name="slotFive" value="{{ $infos->slotFive }}" required>
+                              <!-- <input type="text" class="form-control" id="inputSlotFive" placeholder="ex: Class,Counseling,Off Day" name="slotFive" required> -->
+                              <select id="inputState" class="form-control" name="slotFive" required>
+                                <option selected>{{$infos->slotFive}}</option>
+                                <option value="Class">Class</option>
+                                <option value="Counseling">Counseling</option>
+                                <option value="Off Day">Off Day</option>
+                              </select>
                             </div>
                             <div class="form-group col-md-6">
                               <label for="inputSlotSix">Slot Six</label>
-                              <input type="text" class="form-control" id="inputSlotSix" placeholder="Slot Six" name="slotSix" value="{{ $infos->slotSix }}" required>
+                              <!-- <input type="text" class="form-control" id="inputSlotSix" placeholder="ex: Class,Counseling,Off Day" name="slotSix" required> -->
+                              <select id="inputState" class="form-control" name="slotSix" required>
+                                <option selected>{{$infos->slotSix}}</option>
+                                <option value="Class">Class</option>
+                                <option value="Counseling">Counseling</option>
+                                <option value="Off Day">Off Day</option>
+                              </select>
                             </div>
                           </div>
                           <button type="submit" class="btn btn-primary" name="submit">Save Update</button> <br> <br>
